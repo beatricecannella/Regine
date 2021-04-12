@@ -72,7 +72,7 @@ public class FXMLController {
 
 		// Risolvi il problema ricorsivo
 		regine = new Regine();
-		List<Integer> soluzione = regine.risolvi(N);
+		List<Integer> soluzione= regine.risolvi(N);
 
 		// "Dipingi" la soluzione
 		if (soluzione != null) {

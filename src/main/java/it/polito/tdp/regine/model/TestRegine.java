@@ -7,8 +7,8 @@ public class TestRegine {
 	public static void main(String args[]) {
 		Regine r = new Regine() ;
 		
-		List<Integer> soluzione ;
-		soluzione = r.risolvi(8);
+		List<List<Integer>> soluzione ;
+		soluzione = r.risolvi(6);
 		System.out.println(soluzione) ;
 
 	}
